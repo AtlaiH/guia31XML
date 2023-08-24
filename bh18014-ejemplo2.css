@@ -1,0 +1,5 @@
+/* bh18014-ejemplo1.css   bh18014  */
+fichero {background-color:green;}
+ficha {background-color:red; display:block;} nombre {color:white; display:inline;} apellido {color:yellow; display:inline;}
+direccion {color:yellow;font-size:1cm; display:inline;} telefono {color:black;font-size:1cm; display:inline;} email {color:brown;font-size:1cm; display:inline;}
+dui {color:yellow;font-size:1cm; display:inline;} isss {color:yellow;font-size:1cm; display:inline;} afp {color:yellow;font-size:1cm; display:inline;}

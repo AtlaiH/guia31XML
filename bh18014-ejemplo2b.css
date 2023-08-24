@@ -1,0 +1,33 @@
+/* bh18014-ejemplo2b.css   bh18014  */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para el elemento 'pais' */
+  pais {
+    background-color: #ffc107;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Estilos para elementos dentro de 'pais' */
+  pais > * {
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para alternar colores entre elementos dentro de 'pais' */
+  pais > *:nth-child(odd) {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  pais > *:nth-child(even) {
+    background-color: #28a745;
+    color: #fff;
+  }

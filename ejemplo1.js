@@ -1,0 +1,1 @@
+var ejemplo1 = JSON.parse('{"fichero":{"ficha":{"@id":"1","@fechaingreso":"1/11/2012","nombre":"Atlai","apellido":"Bonilla","direccion":"San salvador","telefono":"78257295","email":"atlaieliasibh.estudios@gmail.com","dui":"060278304"}}}');

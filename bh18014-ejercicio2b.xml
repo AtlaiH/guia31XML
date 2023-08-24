@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="bh18014-ejemplo2b.css" ?>
+<!-- ejemplo2b.xml  bh18014-->
+<pais nombre="El Salvador">
+<modena>dolar estadounidense</modena>
+<codigoTel>+503</codigoTel>
+<idiomas>Español</idiomas>
+<idiomasAutoctonos>Nahuat, Poton, Pisbi</idiomasAutoctonos>
+<departamento id="1" nombre="San Salvador">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+</departamento>
+
+<departamento id="2" nombre="La Libertad">
+<cabecera>Santa tecla</cabecera>
+<habitantes>1,778,000</habitantes>
+<altura>30 MSNM</altura>
+</departamento>
+
+
+<departamento id="3" nombre="Cuscatlan">
+<cabecera>Cojutepeque</cabecera>
+<habitantes>48,027</habitantes>
+<altura>849 MSNM</altura>
+</departamento>
+</pais>

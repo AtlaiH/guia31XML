@@ -1,0 +1,1 @@
+var ejemplo2a = JSON.parse('{"pais":{"@nombre":"El Salvador","departamento":{"@id":"1","@nombre":"San Salvador","cabecera":"San Salvador","habitantes":"1,700,000","altura":"545 MSNM"}}}');
