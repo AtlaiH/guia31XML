@@ -1,0 +1,14 @@
+/* mh18083-ejercicio2a.css   MH18083  */
+
+pais {background-color:blue;}
+departamento:nth-child(1) {background-color:red; display:block;} 
+departamento:nth-child(2) {background-color:purple; display:block;} 
+cabecera {color:white; font-size: 1cm;display:inline;} 
+habitantes {color:orange; font-size: 1cm;display:inline;}
+altura {color:yellow;font-size:1cm; display:inline;}
+codigopostal {color:blue; font-size: 1cm; display: inline;}
+pibr {color:aqua; font-size: 1cm; display: inline;}
+idioma {color:green; font-size: 1cm; display: inline;}
+idiomaautoctono {color:darkgray; font-size: 1cm; display: inline;}
+playas {color:lightpink; font-size: 1cm ; display: inline;}
+ingresosturismo {color:tomato; font-size: 1cm; display: inline;}

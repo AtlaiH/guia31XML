@@ -1,0 +1,31 @@
+//mh18083
+{
+  "fichero": {
+    "ficha": [
+      {
+        "nombre": "Marvin",
+        "apellido": "Barbero",
+        "direccion": "Calle de Los Andes, 45"
+      },
+      {
+        "nombre": "Marvin Sigfredo",
+        "apellido": "Martinez Hernandez",
+        "direccion": "Colonia El Limon, Soyapango",
+        "telefono": 77994095,
+        "email": "mh18083@ues.edu.sv",
+        "website": "https://mh18083.neocities.org"
+      },
+      {
+        "nombre": "Marvin Sigfredo",
+        "apellido": "Martinez Hernandez",
+        "direccion": "Colonia El Limon, Soyapango",
+        "telefono": 77994095,
+        "email": "mh18083@ues.edu.sv",
+        "website": "https://mh18083.neocities.org",
+        "dui": "05822550-7",
+        "isss": "No tengo",
+        "afp": "No tengo"
+      }
+    ]
+  }
+}

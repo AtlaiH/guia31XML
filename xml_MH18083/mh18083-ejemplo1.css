@@ -1,0 +1,7 @@
+/* mh18083-ejemplo1.css   MH18083  */
+
+fichero {background-color:blue;}
+ficha {background-color:red; display:block;} 
+nombre {color:white; display:inline;} 
+apellido {color:yellow; display:inline;}
+direccion {color:yellow;font-size:1cm; display:none;}

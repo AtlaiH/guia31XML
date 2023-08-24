@@ -1,0 +1,11 @@
+/* mh18083-ejemplo1.css   MH18083  */
+
+fichero {background-color:blue;}
+ficha:nth-child(1) {background-color:red; display:block;} 
+ficha:nth-child(2) {background-color:purple; display:block;} 
+nombre {color:white; font-size: 1cm;display:inline;} 
+apellido {color:orange; font-size: 1cm;display:inline;}
+direccion {color:yellow;font-size:1cm; display:inline;}
+telefono {color:blue; font-size: 1cm; display: inline;}
+email {color:aqua; font-size: 1cm; display: inline;}
+website {color:green; font-size: 1cm; display: inline;}

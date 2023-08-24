@@ -1,0 +1,21 @@
+//MH18083
+{
+  "pais": {
+    "departamento": [
+      {
+        "cabecera": "San Salvador",
+        "habitantes": "1,700,000",
+        "altura": "545 MSNM"
+      },
+      {
+        "cabecera": "Sonsonate",
+        "habitantes": "71,541",
+        "altura": "246 MSNM",
+        "codigopostal": "030XX",
+        "pibr": "$6125.91",
+        "idioma": "Español latino",
+        "idiomaautoctono": "Nahuatl"
+      }
+    ]
+  }
+}

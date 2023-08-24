@@ -1,0 +1,10 @@
+//MH18083
+{
+  "pais": {
+    "departamento": {
+      "cabecera": "San Salvador",
+      "habitantes": "1,700,000",
+      "altura": "545 MSNM"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="mh18083-ejercicio2b.css" ?>
+<!-- ejercicio2b.xml  MH18083 -->
+<pais nombre="El Salvador">
+<departamento id="1" nombre="San Salvador">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+</departamento>
+
+<departamento id="2" nombre="Sonsonate">
+<cabecera>Sonsonate</cabecera>
+<habitantes>71,541</habitantes>
+<altura>246 MSNM</altura>
+<codigopostal>030XX</codigopostal>
+<pibr>$6125.91</pibr>
+<idioma>Español latino</idioma>
+<idiomaautoctono>Nahuatl</idiomaautoctono>
+</departamento>
+
+<departamento id="3" nombre="La Libertad">
+<cabecera>La Libertad</cabecera>
+<habitantes>2 104 254</habitantes>
+<altura>30 MSNM</altura>
+<codigopostal>030XX</codigopostal>
+<pibr>$7233.53</pibr>
+<idioma>Español latino</idioma>
+<playas>16 </playas>
+<ingresosturismo>$2500000</ingresosturismo>
+</departamento>
+
+</pais>

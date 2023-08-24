@@ -1,0 +1,6 @@
+/* carnet-ejemplo1.css   SUCARNET  */
+pais {background-color:blue;}
+departamento {background-color:red;font-size: 1cm; display:block;} 
+cabecera {color:white;font-size:1cm;display:inline;} 
+habitantes {color:yellow;font-size: 1cm; display:inline;}
+altura {color:yellow;font-size:1cm; display:inline;}
