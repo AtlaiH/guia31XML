@@ -12,3 +12,4 @@ website {color:green; font-size: 1cm; display: inline;}
 dui {color:darkgray; font-size: 1cm; display: inline;}
 isss {color:lightpink; font-size: 1 cm; display: inline;}
 afp {color:tomato; font-size: 1 cm; display:inline; }
+p[title]::before {content:attr(title)" - " attr(data-persona);color:white;font-weight:bold;font-size:1cm;display: block;};

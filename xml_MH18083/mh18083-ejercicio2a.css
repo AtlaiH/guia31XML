@@ -10,3 +10,4 @@ codigopostal {color:blue; font-size: 1cm; display: inline;}
 pibr {color:aqua; font-size: 1cm; display: inline;}
 idioma {color:green; font-size: 1cm; display: inline;}
 idiomaautoctono {color:darkgray; font-size: 1cm; display: inline;}
+p[title]::before {content:attr(title)" - " attr(data-departamento);color:white;font-weight:bold;font-size:1cm;display: block;};

@@ -9,3 +9,4 @@ direccion {color:yellow;font-size:1cm; display:inline;}
 telefono {color:blue; font-size: 1cm; display: inline;}
 email {color:aqua; font-size: 1cm; display: inline;}
 website {color:green; font-size: 1cm; display: inline;}
+p[title]::before {content:attr(title)" - " attr(data-persona);color:white;font-weight:bold;font-size:1cm;display: block;};

@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/css" href="mh18083-ejemplo1.css" ?>
 <!-- ejemplo1.xml  MH18083 -->
 <fichero>
+<p title="Ficha" data-persona="Persona"><br> Informacion relacionada de Antonio</br></p>
 <ficha id="1" fechaingreso="1/11/2012">
 <nombre>Antonio</nombre>
 <apellido>Barbero</apellido>

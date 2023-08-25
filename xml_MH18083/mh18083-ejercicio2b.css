@@ -12,3 +12,4 @@ idioma {color:green; font-size: 1cm; display: inline;}
 idiomaautoctono {color:darkgray; font-size: 1cm; display: inline;}
 playas {color:lightpink; font-size: 1cm ; display: inline;}
 ingresosturismo {color:tomato; font-size: 1cm; display: inline;}
+p[title]::before {content:attr(title)" - " attr(data-departamento);color:white;font-weight:bold;font-size:1cm;display: block;};

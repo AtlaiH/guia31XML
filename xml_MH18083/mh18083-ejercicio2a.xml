@@ -3,12 +3,16 @@
 <!-- ejercicio2a.xml  MH18083 -->
 <pais nombre="El Salvador">
 <departamento id="1" nombre="San Salvador">
+		<p title="Ficha" data-departamento="departamento"></p>
+
 <cabecera>San Salvador</cabecera>
 <habitantes>1,700,000</habitantes>
 <altura>545 MSNM</altura>
 </departamento>
 
 <departamento id="2" nombre="Sonsonate">
+		<p title="Ficha" data-departamento="departamento"></p>
+
 <cabecera>Sonsonate</cabecera>
 <habitantes>71,541</habitantes>
 <altura>246 MSNM</altura>

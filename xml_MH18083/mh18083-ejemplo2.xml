@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet type="text/css" href="mh18083-ejemplo2.css" ?>
 <!-- ejemplo2.xml  MH18083 -->
+
 <pais nombre="El Salvador">
+	<p title="Ficha" data-departamento="departamento"><br> Informacion relacionada de departamento</br></p>
 <departamento id="1" nombre="San Salvador">
 <cabecera>San Salvador</cabecera>
 <habitantes>1,700,000</habitantes>
