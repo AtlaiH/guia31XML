@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/css" href="bh18014-ejemplo2b.css" ?>
-<!-- ejemplo2b.xml  bh18014-->
+<?xml-stylesheet type="text/css" href="bh18014-ejercicio2b.css" ?>
+<!-- ejercicio2b.xml  bh18014-->
 <pais nombre="El Salvador">
-<modena>dolar estadounidense</modena>
+<moneda>dolar estadounidense</moneda>
 <codigoTel>+503</codigoTel>
 <idiomas>Español</idiomas>
 <idiomasAutoctonos>Nahuat, Poton, Pisbi</idiomasAutoctonos>

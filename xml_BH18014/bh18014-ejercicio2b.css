@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: gray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el contenedor principal 'pais' */
+  pais {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #3498db;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los subcontenedores 'departamento' */
+  departamento {
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: lightblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los atributos de 'pais' y 'departamento' */
+  pais[nombre]::before,
+  departamento[id]::before,
+  departamento[nombre]::before {
+    content: attr(nombre) ": ";
+    font-weight: bold;
+  }
+  
+  departamento[id]::after {
+    content: " (ID: " attr(id) ")";
+  }
+  
+  /* Estilos para los elementos dentro de 'pais' y 'departamento' */
+  pais > *,
+  departamento > * {
+    display: block;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  
+  /* Estilos para el contenido dentro de los elementos */
+  pais moneda,
+  pais codigoTel,
+  pais idiomas,
+  pais idiomasAutoctonos,
+  departamento cabecera,
+  departamento habitantes,
+  departamento altura {
+    font-weight: bold;
+    color: darkblue;
+  }
+  
+  /* Estilos para los datos dentro de los elementos */
+  moneda,
+  codigoTel,
+  idiomas,
+  idiomasAutoctonos,
+  cabecera,
+  habitantes,
+  altura {
+    font-weight: normal;
+    color: #2ecc71;
+  }
+  
