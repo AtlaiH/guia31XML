@@ -1,0 +1,120 @@
+/* bh18014-ejercicio2a.css   bh18014  */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para el elemento 'pais' */
+  pais {
+    background-color: #ffc107;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Estilos para el elemento 'departamento' */
+  departamento {
+    background-color: #17a2b8;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para elementos dentro de 'departamento' */
+  cabecera, habitantes, altura {
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  /* Estilos para alternar colores entre elementos dentro de 'departamento' */
+  departamento:nth-child(odd) {
+    background-color: #28a745;
+  }
+  
+  departamento:nth-child(even) {
+    background-color: #dc3545;
+  }
+
+  /* Estilos para mostrar los atributos y elementos */
+pais {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+departamento {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+departamento::before {
+  content: "ID: " attr(id) " | Nombre: " attr(nombre);
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+departamento > * {
+  margin: 5px 0;
+}
+
+cabecera::before {
+  content: "Cabecera: ";
+  font-weight: bold;
+}
+
+habitantes::before {
+  content: "Habitantes: ";
+  font-weight: bold;
+}
+
+altura::before {
+  content: "Altura: ";
+  font-weight: bold;
+}
+
+/* Estilos para mostrar los atributos y elementos */
+pais {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+departamento {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+departamento::before {
+  content: "ID: " attr(id) " | Nombre: " attr(nombre);
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+departamento > * {
+  margin: 5px 0;
+}
+
+cabecera::before {
+  content: "Cabecera: ";
+  font-weight: bold;
+}
+
+habitantes::before {
+  content: "Habitantes: ";
+  font-weight: bold;
+}
+
+altura::before {
+  content: "Altura: ";
+  font-weight: bold;
+}

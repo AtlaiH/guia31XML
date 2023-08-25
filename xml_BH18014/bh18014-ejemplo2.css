@@ -1,0 +1,37 @@
+/* bh18014-ejemplo1.css   bh18014  */
+fichero {background-color:green;}
+ficha {background-color:red; display:block;} nombre {color:white; display:inline;} apellido {color:yellow; display:inline;}
+direccion {color:yellow;font-size:1cm; display:list-item;}
+ telefono {color:black;font-size:1cm; display:list-item;} 
+ email {color:brown;font-size:1cm; display:list-item;}
+dui {color:yellow;font-size:1cm; display:list-item;} 
+isss {color:yellow;font-size:1cm; display:list-item;} afp {color:yellow;font-size:1cm; display:inline;}
+
+/* Estilos para mostrar los atributos y elementos */
+ficha {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  ficha::before {
+    content: "ID: " attr(id) " | Fecha de ingreso: " attr(fechaingreso);
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  ficha > * {
+    margin: 5px 0;
+  }
+  
+  ficha > isss::before {
+    content: "ISSS: ";
+    font-weight: bold;
+  }
+  
+  ficha > afp::before {
+    content: "AFP: ";
+    font-weight: bold;
+  }

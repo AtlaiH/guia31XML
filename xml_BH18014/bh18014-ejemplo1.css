@@ -1,0 +1,23 @@
+/* bh18014-ejemplo1.css   bh18014  */
+fichero {background-color:blue;}
+ficha {background-color:red; display:block;} nombre {color:white; display:inline;} apellido {color:yellow; display:inline;}
+direccion {color:yellow;font-size:1cm; display:none;}
+
+/* Estilos para mostrar los atributos */
+ficha {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  ficha::before {
+    content: "ID: " attr(id) " | Fecha de ingreso: " attr(fechaingreso);
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  ficha > * {
+    margin: 5px 0;
+  }
